@@ -1,0 +1,568 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.5.3">
+    
+    
+      
+        <title>Installation Components - mk_docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7a952b86.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4051b5">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="indigo" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#installation-components" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="mk_docs" class="md-header__button md-logo" aria-label="mk_docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            mk_docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Installation Components
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="mk_docs" class="md-nav__button md-logo" aria-label="mk_docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    mk_docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index_1/" class="md-nav__link">
+        Welcome to MkDocs
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Installation Components
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Installation Components
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#git-installation" class="md-nav__link">
+    Git Installation
+  </a>
+  
+    <nav class="md-nav" aria-label="Git Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installation-steps" class="md-nav__link">
+    Installation Steps
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configurations" class="md-nav__link">
+    Configurations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#git-installation" class="md-nav__link">
+    Git Installation
+  </a>
+  
+    <nav class="md-nav" aria-label="Git Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installation-steps" class="md-nav__link">
+    Installation Steps
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configurations" class="md-nav__link">
+    Configurations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="installation-components">Installation Components</h1>
+<p>The earlier section, gave an overview of the different tools that make up the pipeline for z/OS. Here and the next sections, we will see the different components of the tools (server / agent), where they are installed (desktop, Linux or USS), the prerequisites and how they interact with each other</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>the different components of the tool - agent / server</li>
+<li>where it needs to be installed - deskptop / Linux server / USS</li>
+<li>prerequisites for the installation </li>
+<li>the communication channels between the tools - ports</li>
+</ul>
+</div>
+<table>
+<thead>
+<tr>
+<th align="left">Product</th>
+<th align="left">Installed on</th>
+<th align="left">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Git for z/OS</td>
+<td align="left">USS on z/OS</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">IBM Dependency Based Build</td>
+<td align="left">USS on z/OS</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">IBM zAppBuild Groovy scripts</td>
+<td align="left">USS on z/OS</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Jenkins - Server</td>
+<td align="left">Linux</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Jenkins - agent</td>
+<td align="left">USS on z/OS</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">IBM Developer for Z</td>
+<td align="left">Windows /Mac</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Urban Code Deploy - server</td>
+<td align="left">Linux</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Urban Code Deploy - agent</td>
+<td align="left">USS on z/OS</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Rational License Key Manger</td>
+<td align="left">Linux</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="git-installation">Git Installation</h2>
+<p>Git is ported to mainframe by <a href="https://www.rocketsoftware.com/">Rocket Software</a>. Git installation happens through the Miniconda installation on the USS. The following are the</p>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Requirements</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>System Requirements</td>
+<td>z/OS v2.2 or more<br/>IBM Z EC12 or BC12 later<br/>2 - 3 GB of space</td>
+</tr>
+<tr>
+<td>Access to the site</td>
+<td><a href="https://my.rocketsoftware.com/RocketCommunity#/">Rocket Community</a></td>
+</tr>
+<tr>
+<td>Files to be downloaded</td>
+<td><code>miniconda-zos-x.y-yyyy-mm-dd.run</code><br/> <code>appdev manifest 1.x.y.txt</code><br/> <code>zOS Miniconda Documentation.pdf</code></td>
+</tr>
+<tr>
+<td>System access</td>
+<td>Access to the USS folder. No special permissions or super user permissions needed</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition caution">
+<p class="admonition-title">Installation on ZD&amp;T</p>
+<p>If the installation is on ZD&amp;T make sure that the USS folder where it is installed has minimum 2 GB of data. Else make sure you mount necessary data before starting the installation </br></br>
+Add the volume to the BPXPRM00 of the installation</p>
+</div>
+<h3 id="installation-steps">Installation Steps</h3>
+<p>Refer to <a href="https://www.youtube.com/watch?v=1MOrfxC1ofs">zOS Miniconda Installation Demo - YouTube</a> for installation details</p>
+<ol>
+<li>
+<p>FTP the files <code>miniconda-zos-x.y-yyyy-mm-dd.run</code> &amp; <code>appdev manifest 1.x.y.txt</code> to USS using the <mark class="critic">binary mode</mark></p>
+</li>
+<li>
+<p>Log in to the USS folder throught a SSH client like PuTTy, change the directory where the above components are copied</p>
+</li>
+<li>
+<p>Set the tags for the files   </p>
+</li>
+</ol>
+<div class="highlight"><pre><span></span><code>chmod +x miniconda-zos-&lt;X.Y&gt;-&lt;yyyy-mm-dd&gt;.run
+chtag -tc 819 appdev_manifest-&lt;1.x.y&gt;.txt
+</code></pre></div>
+<ol>
+<li>Set the following environments variable to run the installation scripts</li>
+</ol>
+<div class="highlight"><pre><span></span><code>export _BPXK_AUTOCVT=ON
+export _CEE_RUNOPTS=&#39;FILETAG(AUTOCVT,AUTOTAG) POSIX(ON)&#39;
+</code></pre></div>
+<ol>
+<li>Execute the below installation script. Here the <code>path</code> parameter is optional. If the <code>path</code> is not specified then the installation happens on your home directory <code>/u/&lt;userid&gt;</code></li>
+</ol>
+<div class="highlight"><pre><span></span><code>./miniconda-zos-&lt;X.Y&gt;-&lt;yyyy-mm-dd&gt;.run --path &lt;miniconda_installation_path&gt;
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>During the installation you would be prompted for configuring Rocket's secure conda server. 
+<code>Configure to use Rocket's secure conda server? [Y/n].</code>You could respond with a <code>n</code> to this</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+</div>
+<p>Please note down the miniconda installation path as this would be needed in the configuration section</p>
+<h3 id="configurations">Configurations</h3>
+<p>The <code>.profile</code> and the <code>.bashrc</code>files need to be editied to add the below lines. These files can be edited by opening them in <code>vi editor</code> . This has to be done to every user who needs to use miniconda</p>
+<p><code>.profile</code></p>
+<div class="highlight"><pre><span></span><code>export _BPXK_AUTOCVT=ON
+export _CEE_RUNOPTS=&quot;FILETAG(AUTOCVT,AUTOTAG) POSIX(ON)&quot;
+SHELL=&lt;miniconda_installation_path&gt;/bin/bash
+exec $SHELL
+</code></pre></div>
+<p><code>.bashrc</code></p>
+<div class="highlight"><pre><span></span><code>. &lt;miniconda_installation_path&gt;/etc/profile.d/conda.sh
+</code></pre></div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../index_1/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Welcome to MkDocs" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Welcome to MkDocs
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.37e9125f.min.js"></script>
+      
+    
+  </body>
+</html>

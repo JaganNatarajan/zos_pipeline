@@ -1,0 +1,9 @@
+.md-typeset .admonition {
+  font-family: 'Roboto';
+  font-size: 13.5px;
+}
+
+.md-typeset table:not([class]) {
+    font-family: 'Roboto';
+    font-size: 13.5px;
+  }
